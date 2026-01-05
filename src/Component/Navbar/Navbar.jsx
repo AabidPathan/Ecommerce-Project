@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-logo">
         <img src={logo} alt="" height="50px" />
-        <p>Pathan Collections</p>
+        <p>Shopify</p>
       </div>
       <ul className="nav-menue">
         <li
@@ -73,3 +73,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
