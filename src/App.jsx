@@ -17,7 +17,8 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/Home" element={<Shop />} />
+          <Route path="/" element={<Shop />} />
+           <Route path="/home" element={<Shop />} />
           <Route
             path="/men"
             element={<ShopCategory banner={men_banner} category="men" />}
@@ -42,3 +43,4 @@ const App = () => {
 };
 
 export default App;
+
